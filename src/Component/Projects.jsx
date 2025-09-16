@@ -62,6 +62,17 @@ export default function Projects() {
     }
     ,
     {
+      title: "EcoFinder – Sustainable Living Guide",
+      description:
+        "EcoFinder is a web-based platform designed to help users discover eco-friendly locations and services such as recycling centers, sustainable shops, and green initiatives. It aims to promote sustainable living by making it easier for individuals to connect with environmentally responsible businesses and resources. The project highlights full-stack development, geolocation features, and a user-friendly interface for seamless navigation.",
+      tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS", "Google Maps API", "Responsive Design"],
+      category: "Full-Stack Project",
+      status: "Completed",
+      color: "green",
+      live: "https://ecofinds-second-hand.netlify.app/",
+      github: "https://github.com/aryapatel23/odooxnmit"
+    },
+    {
       title: "Amazon Clone",
       description:
         "E-commerce platform replicating Amazon's core features including product catalog, shopping cart, user accounts, and checkout process with modern UI/UX design.",

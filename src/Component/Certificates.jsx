@@ -42,79 +42,115 @@ export default function Certificates() {
 
   // Sample certificates structure - replace with your actual data
   const certificates = [
-  {
-    id: 1,
-    title: "Full Stack Web Development",
-    issuer: "HackerRank",
-    date: "30 May, 2025",
-    category: "Web Development",
-    description: "Comprehensive certification covering HTML, CSS, JavaScript, React, Node.js, and MongoDB",
-    image: "https://www.hackerrank.com/certificates/iframe/daf77ab80b72",
-    certificateUrl: "https://www.hackerrank.com/certificates/iframe/f24b58885467",
-    skills: ["HTML5", "CSS3", "JavaScript", "React", "Node.js"],
-    status: "Completed",
-    color: "emerald"
-  },
-  {
-    id: 2,
-    title: "CSS (Basic)",
-    issuer: "HackerRank",
-    date: "17 May, 2025",
-    status: "Completed",
-    certificateUrl: "https://www.hackerrank.com/certificates/iframe/6efe82024665",
-    image: "/certificates/css-basic.png",
-    color: "yellow",
-    description: "Verified CSS (Basic) skill assessment by HackerRank, covering selectors, styling, layouts, and responsive design.",
-    skills: ["CSS", "Selectors", "Box Model", "Flexbox", "Responsive Design"]
-  },
-  {
-    id: 3,
-    title: "JavaScript (Basic)",
-    issuer: "HackerRank",
-    date: "19 May, 2025",
-    status: "Completed",
-    certificateUrl: "https://www.hackerrank.com/certificates/iframe/0499d89f914e",
-    image: "/certificates/javascript-basic.png",
-    color: "blue",
-    description: "Verified JavaScript (Basic) skill assessment, focusing on syntax, loops, functions, and core ES6 concepts.",
-    skills: ["JavaScript", "Variables", "Functions", "Loops", "ES6"]
-  },
-  {
-    id: 4,
-    title: "React (Basic)",
-    issuer: "HackerRank",
-    date: "28 May, 2025",
-    status: "Completed",
-    certificateUrl: "https://www.hackerrank.com/certificates/iframe/7d508f218df9",
-    image: "/certificates/react-basic.png",
-    color: "cyan",
-    description: "Verified React (Basic) skill assessment, covering components, props, state, hooks, and rendering logic.",
-    skills: ["React", "Components", "Hooks", "Props", "JSX"]
-  },
-  {
-    id: 5,
-    title: "Node (Basic)",
-    issuer: "HackerRank",
-    date: "05 Jun, 2025",
-    status: "Completed",
-    certificateUrl: "https://www.hackerrank.com/certificates/iframe/76a42537e314",
-    image: "/certificates/node-basic.png",
-    color: "green",
-    description: "Verified Node.js (Basic) skill assessment, including modules, event loop, npm usage, and basic APIs.",
-    skills: ["Node.js", "Modules", "Event Loop", "NPM", "APIs"]
-  },
-  {
-    id: 6,
-    title: "JavaScript (Intermediate)",
-    issuer: "HackerRank",
-    date: "18 Jun, 2025",
-    status: "Completed",
-    certificateUrl: "https://www.hackerrank.com/certificates/iframe/daf77ab80b72",
-    image: "/certificates/javascript-intermediate.png",
-    color: "purple",
-    description: "Verified JavaScript (Intermediate) skill assessment, covering closures, async/await, promises, and advanced concepts.",
-    skills: ["JavaScript", "Closures", "Async/Await", "Promises", "OOP"]
-  },
+    {
+      id: 1,
+      title: "Full Stack Web Development",
+      issuer: "HackerRank",
+      date: "30 May, 2025",
+      category: "Web Development",
+      description: "Comprehensive certification covering HTML, CSS, JavaScript, React, Node.js, and MongoDB",
+      image: "https://jaro-website.s3.ap-south-1.amazonaws.com/2024/07/full-stack-web-developer.png",
+      certificateUrl: "https://www.hackerrank.com/certificates/iframe/f24b58885467",
+      skills: ["HTML5", "CSS3", "JavaScript", "React", "Node.js"],
+      status: "Completed",
+      color: "emerald"
+    },
+    {
+      id: 2,
+      title: "CSS (Basic)",
+      issuer: "HackerRank",
+      date: "17 May, 2025",
+      status: "Completed",
+      certificateUrl: "https://www.hackerrank.com/certificates/iframe/6efe82024665",
+      image: "https://res.cloudinary.com/cloudinary-marketing/images/f_auto,q_auto/v1649718594/Web_Assets/blog/working_with_css_22218720ab/working_with_css_22218720ab.jpg?_i=AA",
+      color: "yellow",
+      description: "Verified CSS (Basic) skill assessment by HackerRank, covering selectors, styling, layouts, and responsive design.",
+      skills: ["CSS", "Selectors", "Box Model", "Flexbox", "Responsive Design"]
+    },
+    {
+      id: 3,
+      title: "JavaScript (Basic)",
+      issuer: "HackerRank",
+      date: "19 May, 2025",
+      status: "Completed",
+      certificateUrl: "https://www.hackerrank.com/certificates/iframe/0499d89f914e",
+      image: "https://bairesdev.mo.cloudinary.net/blog/2023/08/What-Is-JavaScript-Used-For.jpg?tx=w_1920,q_auto",
+      color: "blue",
+      description: "Verified JavaScript (Basic) skill assessment, focusing on syntax, loops, functions, and core ES6 concepts.",
+      skills: ["JavaScript", "Variables", "Functions", "Loops", "ES6"]
+    },
+    {
+      id: 4,
+      title: "React (Basic)",
+      issuer: "HackerRank",
+      date: "28 May, 2025",
+      status: "Completed",
+      certificateUrl: "https://www.hackerrank.com/certificates/iframe/7d508f218df9",
+      image: "https://miro.medium.com/v2/resize:fit:1400/0*y6IcBe5J1AdALzXw.png",
+      color: "cyan",
+      description: "Verified React (Basic) skill assessment, covering components, props, state, hooks, and rendering logic.",
+      skills: ["React", "Components", "Hooks", "Props", "JSX"]
+    },
+    {
+      id: 5,
+      title: "Node (Basic)",
+      issuer: "HackerRank",
+      date: "05 Jun, 2025",
+      status: "Completed",
+      certificateUrl: "https://www.hackerrank.com/certificates/iframe/76a42537e314",
+      image: "https://admin.wac.co/uploads/Node_js_Architecture_A_Comprehensive_Guide_1_af37a73e1e.png",
+      color: "green",
+      description: "Verified Node.js (Basic) skill assessment, including modules, event loop, npm usage, and basic APIs.",
+      skills: ["Node.js", "Modules", "Event Loop", "NPM", "APIs"]
+    },
+    {
+      id: 6,
+      title: "JavaScript (Intermediate)",
+      issuer: "HackerRank",
+      date: "18 Jun, 2025",
+      status: "Completed",
+      certificateUrl: "https://www.hackerrank.com/certificates/iframe/daf77ab80b72",
+      image: "https://bairesdev.mo.cloudinary.net/blog/2023/08/What-Is-JavaScript-Used-For.jpg?tx=w_1920,q_auto",
+      color: "purple",
+      description: "Verified JavaScript (Intermediate) skill assessment, covering closures, async/await, promises, and advanced concepts.",
+      skills: ["JavaScript", "Closures", "Async/Await", "Promises", "OOP"]
+    },
+    {
+      id: 7,
+      title: "Getting Started with Amazon DocumentDB (with MongoDB compatibility)",
+      issuer: "AWS",
+      date: "Expired",
+      status: "Free course expired",
+      certificateUrl: "https://lms.simplilearn.com/courses/7421/Getting-Started-with-Amazon-DocumentDB-%28with-MongoDB-compatibility%29/certificate/download-skillup",
+      image: "https://i.ytimg.com/vi/SRWbm1dfOs4/maxresdefault.jpg",
+      color: "orange",
+      description: "Introduction to Amazon DocumentDB, a fully managed document database service compatible with MongoDB.",
+      skills: ["Amazon DocumentDB", "MongoDB Compatibility", "Cloud Databases", "AWS"]
+    },
+    {
+      id: 8,
+      title: "GitHub Copilot Fundamentals",
+      issuer: "Microsoft",
+      date: "Expired",
+      status: "Free course expired",
+      certificateUrl: "https://lms.simplilearn.com/courses/7867/GitHub-Copilot-Fundamentals/certificate/download-skillup",
+      image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      color: "blue",
+      description: "Fundamentals of GitHub Copilot, covering AI-assisted coding workflows and productivity best practices.",
+      skills: ["GitHub Copilot", "AI Pair Programming", "Code Assistance", "Developer Productivity"]
+    },
+    {
+      id: 9,
+      title: "Introduction to the Basics of Azure Services",
+      issuer: "Microsoft Azure",
+      date: "Expired",
+      status: "Free course expired",
+      certificateUrl: "https://lms.simplilearn.com/courses/4621/Introduction-to-the-Basics-of-Azure-Services/certificate/download-skillup",
+      image: "https://azure.microsoft.com/svghandler/azure-icon/azure-icon.svg",
+      color: "cyan",
+      description: "Beginner-level introduction to Microsoft Azure cloud services, exploring core concepts and cloud computing basics.",
+      skills: ["Azure", "Cloud Computing", "DevOps", "Azure Services"]
+    },
     {
       id: 7,
       title: "JavaScript Algorithms and Data Structures",
@@ -168,7 +204,7 @@ export default function Certificates() {
       color: "green"
     },
     {
-      id:11,
+      id: 11,
       title: "Git Version Control",
       issuer: "GitHub",
       date: "2023",
@@ -299,8 +335,8 @@ export default function Certificates() {
                 </a>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
                 <div className={`absolute top-4 right-4 px-3 py-1 rounded-full text-xs font-medium ${certificate.status === 'Completed'
-                    ? 'bg-green-500/80 text-green-100'
-                    : 'bg-yellow-500/80 text-yellow-100'
+                  ? 'bg-green-500/80 text-green-100'
+                  : 'bg-yellow-500/80 text-yellow-100'
                   }`}>
                   {certificate.status}
                 </div>
@@ -354,7 +390,7 @@ export default function Certificates() {
                     <ExternalLink className="w-4 h-4" />
                     Verify
                   </motion.a>
-                  <motion.a
+                  {/* <motion.a
                     href={certificate.image}
                     download
                     whileHover={{ scale: 1.05 }}
@@ -363,7 +399,7 @@ export default function Certificates() {
                   >
                     <Download className="w-4 h-4" />
                     Download
-                  </motion.a>
+                  </motion.a> */}
                 </div>
               </div>
             </motion.div>
