@@ -17,12 +17,12 @@ import {
 
 const navigationItems = [
   { title: "Home", url: "/", icon: Home },
-  { title: "About", url: "/About", icon: User },
-  { title: "Skills", url: "/Skills", icon: Code },
-  { title: "Projects", url: "/Projects", icon: FolderOpen },
-  { title: "Education", url: "/Education", icon: GraduationCap },
-  { title: "Certificates", url: "/Certificates", icon: Award },
-  { title: "Contact", url: "/Contact", icon: Mail },
+  { title: "About", url: "/about", icon: User },
+  { title: "Skills", url: "/skills", icon: Code },
+  { title: "Projects", url: "/projects", icon: FolderOpen },
+  { title: "Education", url: "/education", icon: GraduationCap },
+  { title: "Certificates", url: "/certificates", icon: Award },
+  { title: "Contact", url: "/contact", icon: Mail },
 ];
 
 
